@@ -1,0 +1,10 @@
+import numpy as np
+import random as rd
+matriz=np.zeros ((3,3), type (int))
+print(" Matriz inicializada con ceros")
+print(matriz)
+for f in range (3):
+    for c in range (3):
+        matriz[f][c]=rd.randint(0,100)
+print(" Matriz con aleatorios")
+print(matriz)
